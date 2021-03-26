@@ -22,7 +22,9 @@ namespace Actividad_04
                 Console.WriteLine(" \r ");
 
                 Console.WriteLine("Para finalizar el programa, debe ingresar la palabra 'fin' ");
-            } while (finalizar.ToLower() != "fin");
+            } 
+            
+            while (finalizar.ToLower() != "fin");
             
     }
     }
