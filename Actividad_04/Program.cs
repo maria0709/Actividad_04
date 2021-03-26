@@ -17,12 +17,12 @@ namespace Actividad_04
             do
             {
                 Console.WriteLine("Ingrese una frase/s: ");
-              
+
                 finalizar = Console.ReadLine();
                 Console.WriteLine(" \r ");
 
                 Console.WriteLine("Para finalizar el programa, debe ingresar la palabra 'fin' ");
-            } while (finalizar != "fin");
+            } while (finalizar.ToLower() != "fin");
             
     }
     }
